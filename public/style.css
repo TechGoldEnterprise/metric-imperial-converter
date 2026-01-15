@@ -1,0 +1,31 @@
+/* Main styles are included in the HTML above, but this file can be used for additional styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Additional responsive styles if needed */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2em !important;
+    }
+    
+    .container {
+        padding: 15px !important;
+    }
+    
+    .converter-box {
+        padding: 20px !important;
+    }
+    
+    input[type="text"] {
+        font-size: 16px !important;
+        padding: 12px !important;
+    }
+    
+    button {
+        padding: 12px 20px !important;
+        font-size: 16px !important;
+    }
+}
